@@ -229,7 +229,11 @@ section img {
     nav {
         flex-direction: column;
     }
-
+    *
+    {
+        margin: 0px;
+        border: 0px;
+    }
     header {
         padding: 20px 20px;
     }
@@ -284,39 +288,44 @@ section img {
     .Features-section
     {
         flex-direction: column;
-        width: 100vh;
+        width: 450px;
         gap: 10px;
-        width: 458px;
+        width: 450px;
+        border: 1px solid black;
+
     }
     .feature-head {
-        font-size: 30px;
-        margin-left: 60px;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 450px;
     }
     
     .feature-info {
+        width: 450px;
         font-size: 15px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     
     .card {
-        width: 525px;
+        width: 450px;
         height: 161px;
-        margin-left: 35px;
+        
     }
     
     .feature-img {
     
     
-        width: 500px;
+        width: 450px;
         height: 700px;
         flex-shrink: 0;
         border-radius: 8px;
-        margin-left: 45px;
+        
     }
     
     .architect-part .btn-primary {
         font-size: 40px;
-        margin-left: 160px;
+        margin-left: 100px;
     }
 
 }
@@ -336,20 +345,30 @@ section img {
 
     .img-section {
         display: flex;
-        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        gap: 10px;
     }
 
     .img {
         height: 40vh;
-        margin-left: 25%;
+        margin-right: 10%;
+        
         margin-top: 20px;
     }
 
     .head-des {
 
-        font-size: 30px;
+        /* font-size: 30px;
         margin-left: 18px;
-        margin-top: 15px;
+        margin-top: 15px; */
+
+        color: #727272;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
     }
 
@@ -373,7 +392,49 @@ section img {
     .img-section .btn-primary {
         font-size: 10px;
         padding: 15px 20px;
-        margin-left: 35%;
+        margin-left: 20%;
 
+    }
+    .Features-section
+    {
+        flex-direction: column;
+        width: 450px;
+        gap: 10px;
+        width: 450px;
+        border: 1px solid black;
+
+    }
+    .feature-head {
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 450px;
+    }
+    
+    .feature-info {
+        width: 450px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .card {
+        width: 450px;
+        height: 161px;
+        
+    }
+    
+    .feature-img {
+    
+    
+        width: 450px;
+        height: 700px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        
+    }
+    
+    .architect-part .btn-primary {
+        font-size: 40px;
+        margin-left: 100px;
     }
 }
