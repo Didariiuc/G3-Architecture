@@ -104,6 +104,10 @@ section img {
     border-radius: 8px;
 }
 
+.img-section {
+    margin-bottom: 15px;
+}
+
 .img-des {
     width: 468px;
     display: flex;
@@ -141,19 +145,16 @@ section img {
 
 .Features-section {
     /* width: 1440px; */
-    
+
     width: 1920px;
     gap: 146px;
 
 }
 
 .feature-head {
-    color: var(--Dark-01, #131313);
-    font-family: "Work Sans";
+    color: #131313;
     font-size: 45px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     width: 468px;
 }
 
@@ -176,6 +177,8 @@ section img {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
+
+
 
 .card h4 {
     color: var(--Dark-01, #131313);
@@ -222,18 +225,47 @@ section img {
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
-   
+
+}
+
+/* Some part */
+.some-part h3 {
+    width: 258px;
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.some-part {
+    width: 1674px;
+    margin-left: 246px;
+}
+
+.some-part p {
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 542px;
+
+    /* 162.5% */
 }
 
 @media screen and (max-width: 576px) {
     nav {
         flex-direction: column;
     }
-    *
-    {
+
+    * {
         margin: 0px;
         border: 0px;
     }
+
     header {
         padding: 20px 20px;
     }
@@ -285,8 +317,8 @@ section img {
         margin-left: 35%;
 
     }
-    .Features-section
-    {
+
+    .Features-section {
         flex-direction: column;
         width: 450px;
         gap: 10px;
@@ -294,38 +326,56 @@ section img {
         border: 1px solid black;
 
     }
+
     .feature-head {
         font-size: 25px;
         margin-bottom: 10px;
         margin-left: 10px;
         width: 450px;
     }
-    
+
     .feature-info {
         width: 450px;
         font-size: 15px;
         margin-left: 10px;
     }
-    
+
     .card {
         width: 450px;
         height: 161px;
-        
+
     }
-    
+
     .feature-img {
-    
-    
+
+
         width: 450px;
         height: 700px;
         flex-shrink: 0;
         border-radius: 8px;
-        
+
     }
-    
+
     .architect-part .btn-primary {
         font-size: 40px;
         margin-left: 100px;
+    }
+
+    .some-part {
+        width: 400px;
+        margin-left: 50px;
+        border: 1px solid black;
+    }
+    .some-part h3 {
+        margin-left: 110px;
+        font-size: 30px;
+        
+    }
+    
+    .some-part p {
+        width: 400px;
+    
+        /* 162.5% */
     }
 
 }
@@ -353,7 +403,7 @@ section img {
     .img {
         height: 40vh;
         margin-right: 10%;
-        
+
         margin-top: 20px;
     }
 
@@ -364,11 +414,11 @@ section img {
         margin-top: 15px; */
 
         color: #727272;
-    font-family: "Work Sans";
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+        font-family: "Work Sans";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
 
     }
 
@@ -395,8 +445,8 @@ section img {
         margin-left: 20%;
 
     }
-    .Features-section
-    {
+
+    .Features-section {
         flex-direction: column;
         width: 450px;
         gap: 10px;
@@ -404,37 +454,54 @@ section img {
         border: 1px solid black;
 
     }
+
     .feature-head {
         font-size: 25px;
         margin-bottom: 10px;
         margin-left: 10px;
         width: 450px;
     }
-    
+
     .feature-info {
         width: 450px;
         font-size: 15px;
         margin-left: 10px;
     }
-    
+
     .card {
         width: 450px;
         height: 161px;
-        
+
     }
-    
+
     .feature-img {
-    
-    
+
+
         width: 450px;
         height: 700px;
         flex-shrink: 0;
         border-radius: 8px;
-        
+
     }
-    
+
     .architect-part .btn-primary {
         font-size: 40px;
         margin-left: 100px;
+    }
+    .some-part {
+        width: 400px;
+        margin-left: 110px;
+        border: 1px solid black;
+    }
+    .some-part h3 {
+        margin-left: 110px;
+        font-size: 30px;
+        
+    }
+    
+    .some-part p {
+        width: 400px;
+    
+        /* 162.5% */
     }
 }
