@@ -256,6 +256,58 @@ section img {
     /* 162.5% */
 }
 
+/* icon part */
+
+.icon-boxes {
+    display: flex;
+    justify-content: center;
+    width: 1320px;
+    gap: 100px;
+    margin-left: 250px;
+}
+
+.icon-boxes .icon-box .number {
+    color: var(--Dark-02, #424242);
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+.icon-boxes .icon-box .award
+{
+    color: var(--Dark-03, #727272);
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.icon-boxes .icon-box img {
+    width: 45.221px;
+    height: 45.221px;
+    margin-left: 50px;
+
+}
+.icon-box
+{
+    width: 241px;
+    height: 241px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    
+}
+.icon-in
+{
+    margin-left: 50px;
+    justify-content: center;
+}
+
 @media screen and (max-width: 576px) {
     nav {
         flex-direction: column;
@@ -366,17 +418,64 @@ section img {
         margin-left: 50px;
         border: 1px solid black;
     }
+
     .some-part h3 {
         margin-left: 110px;
         font-size: 30px;
-        
+
     }
-    
+
     .some-part p {
         width: 400px;
-    
+
         /* 162.5% */
     }
+    .icon-boxes {
+        
+        flex-direction: column;
+        width: 1320px;
+        gap: 100px;
+        margin-left: 0px;
+    }
+    
+    .icon-boxes .icon-box .number {
+        color: var(--Dark-02, #424242);
+        font-family: "Work Sans";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    
+    
+    }
+    .icon-boxes .icon-box .award
+    {
+        color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .icon-boxes .icon-box img {
+        width: 25.221px;
+        height: 25.221px;
+        margin-left: 50px;
+    
+    }
+    .icon-box
+    {
+        width: 100px;
+        height: 100px;
+        
+    }
+    .icon-in
+    {
+        margin-left: 50px;
+        justify-content: center;
+    }
+    
 
 }
 
@@ -488,20 +587,72 @@ section img {
         font-size: 40px;
         margin-left: 100px;
     }
+
     .some-part {
         width: 400px;
         margin-left: 110px;
         border: 1px solid black;
     }
+
     .some-part h3 {
         margin-left: 110px;
         font-size: 30px;
-        
+
     }
-    
+
     .some-part p {
         width: 400px;
-    
+
         /* 162.5% */
     }
+    .icon-boxes {
+        display: flex;
+        justify-content: center;
+        width: 1320px;
+        gap: 100px;
+        margin-left: 250px;
+    }
+    
+    .icon-boxes .icon-box .number {
+        color: var(--Dark-02, #424242);
+        font-family: "Work Sans";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    
+    
+    }
+    .icon-boxes .icon-box .award
+    {
+        color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .icon-boxes .icon-box img {
+        width: 45.221px;
+        height: 45.221px;
+        margin-left: 50px;
+    
+    }
+    .icon-box
+    {
+        width: 241px;
+        height: 241px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #FF900E;
+        
+    }
+    .icon-in
+    {
+        margin-left: 50px;
+        justify-content: center;
+    }
+    
 }
